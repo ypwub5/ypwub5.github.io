@@ -1,0 +1,95 @@
+theme = ['hugo-theme-anubis2','hugo-shortcode-gallery']
+languageCode = 'zh-cn'
+title = 'ypwu.dev'
+
+[author]
+name = "ypwub5"
+
+[params]
+    author = "ypwub5"
+    description = "a place for me to dump my stupid thoughts"
+    dateFormat = "2006-01-02"
+    paginationSinglePost = true
+
+    colorTheme = "auto"
+    colorThemeSwitcher = true
+
+    readMore = false
+    readNextPosts = 2
+    copyCodeButton = true
+    rssAsSocialIcon = true
+    locale = "en-us"
+    mathjax = true
+    toc = true
+
+[markup.goldmark.extensions.cjk]
+    eastAsianLineBreaks = true
+    eastAsianLineBreaksStyle = 'simple'
+    enable = true
+    escapedSpace = true
+[markup.goldmark.renderer]
+    hardWraps = true
+
+[[menu.main]]
+identifier = "about"
+name = "关于"
+url = "/about/"
+weight = 1
+
+[[menu.main]]
+identifier = "gallery"
+name = "照片"
+url = "/gallery"
+weight = 2
+
+[[menu.main]]
+identifier = "home"
+name = "主页"
+url = "/"
+weight = 3
+
+[[menu.main]]
+identifier = "tags"
+name = "标签"
+url = "/tags/"
+weight = 4
+
+[[menu.main]]
+name = "归档"
+identifier = "archive"
+url = "/posts/"
+weight = 5
+
+
+[languages.en]
+languageName = "English"
+
+[[languages.en.menu.main]]
+identifier = "about"
+name = "AboutMe"
+url = "/about/"
+weight = 1
+
+[[languages.en.menu.main]]
+identifier = "gallery"
+name = "Gallery"
+url = "/gallery"
+weight = 2
+
+[[languages.en.menu.main]]
+identifier = "home"
+name = "Home"
+url = "/"
+weight = 3
+
+[[languages.en.menu.main]]
+identifier = "tags"
+name = "Tags"
+url = "/tags/"
+weight = 4
+
+[[languages.en.menu.main]]
+name = "Archive"
+identifier = "archive"
+url = "/posts/"
+weight = 5
